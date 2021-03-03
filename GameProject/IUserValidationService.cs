@@ -4,7 +4,8 @@ using System.Text;
 
 namespace GameProject
 {
-    public interface IEntity
+    interface IUserValidationService
     {
+        bool Validate(Gamer gamer);
     }
 }
